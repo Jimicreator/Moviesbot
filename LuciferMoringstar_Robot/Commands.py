@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🔰 More Bots 🔰', url=f'(https://t.me//Jimi_Bots)')
+                        InlineKeyboardButton('🔰 Our Group 🔰', url=f'{Tutorial}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -331,7 +331,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('Want to Create Own 😎', url=f'(t.me/Jimi_Bots)')
+            InlineKeyboardButton('Want to Create Own 😎', url=f'{Tutorial}')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
